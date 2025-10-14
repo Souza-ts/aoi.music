@@ -14,9 +14,7 @@ To get started with aoi.music, follow these simple steps:
 
 1. Install aoi.music via npm:
 
-   ```bash
-   npm install aoi.music
-```
+   ```bash npm install aoi.music ```
 
 2. Import the Manager class and create a new instance:
 ```js
