@@ -19,7 +19,8 @@ To get started with aoi.music, follow these simple steps:
 ```
 
 1. Import the Manager class and create a new instance:
-   ```javascript
+
+   ```js
    const { Manager } = require("aoi.music");
    
    const manager = new Manager({
