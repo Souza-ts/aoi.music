@@ -1,7 +1,8 @@
-export { Manager } from "./classes/manager";
-export { AoiVoice } from "./classes/aoiVoice";
-export { AudioPlayer } from "./classes/audioPlayer";
-export { Filter } from "./classes/filter";
+export { Manager } from "./newstruct/manager";
+export { AoiVoice } from "./newstruct/aoiVoice";
+export { AudioPlayer } from "./newstruct/audioPlayer";
+export { Filter } from "./newstruct/filter";
+export { Cacher } from "./newstruct/cacher";
 
 export {
   LoopMode,
@@ -38,3 +39,5 @@ export {
   CustomFilters,
   DefaultFilters
 } from "./newutils/constants";
+
+export { request } from "./newutils/request";
