@@ -15,12 +15,10 @@ To get started with aoi.music, follow these simple steps:
 1. Install aoi.music via npm:
 
    ```bash
-   npm install aoi.music
-```
+   npm install aoi.music```
 
-1. Import the Manager class and create a new instance:
-
-   ```js
+2. Import the Manager class and create a new instance:
+```js
    const { Manager } = require("aoi.music");
    
    const manager = new Manager({
